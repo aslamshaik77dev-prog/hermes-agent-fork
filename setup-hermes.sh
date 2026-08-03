@@ -56,7 +56,7 @@ get_command_link_display_dir() {
 }
 
 echo ""
-echo -e "${CYAN}⚕ Hermes Agent Setup${NC}"
+echo -e "${CYAN}⚡ AS AI PA Agent Setup${NC}"
 echo ""
 
 # ============================================================================

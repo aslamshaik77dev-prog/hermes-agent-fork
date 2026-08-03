@@ -97,7 +97,7 @@ All fields are optional. Missing values inherit from the ``default`` skin.
       agent_name: "Hermes Agent"          # Banner title, status display
       welcome: "Welcome message"          # Shown at CLI startup
       goodbye: "Goodbye! ⚕"              # Shown on exit
-      response_label: " ⚕ Hermes "       # Response box header label
+      response_label: " ⚡ AS AI PA "       # Response box header label
       prompt_symbol: "❯"                 # Input prompt symbol (bare token; renderers add trailing space)
       help_header: "(^_^)? Commands"      # /help header text
 
@@ -277,7 +277,7 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
             "agent_name": "Hermes Agent",
             "welcome": "Welcome to Hermes Agent! Type your message or /help for commands.",
             "goodbye": "Goodbye! ⚕",
-            "response_label": " ⚕ Hermes ",
+            "response_label": " ⚡ AS AI PA ",
             "prompt_symbol": "❯",
             "help_header": "(^_^)? Available Commands",
         },
@@ -398,7 +398,7 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
             "agent_name": "Hermes Agent",
             "welcome": "Welcome to Hermes Agent! Type your message or /help for commands.",
             "goodbye": "Goodbye! ⚕",
-            "response_label": " ⚕ Hermes ",
+            "response_label": " ⚡ AS AI PA ",
             "prompt_symbol": "❯",
             "help_header": "[?] Available Commands",
         },
@@ -442,7 +442,7 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
             "agent_name": "Hermes Agent",
             "welcome": "Welcome to Hermes Agent! Type your message or /help for commands.",
             "goodbye": "Goodbye! ⚕",
-            "response_label": " ⚕ Hermes ",
+            "response_label": " ⚡ AS AI PA ",
             "prompt_symbol": "❯",
             "help_header": "(^_^)? Available Commands",
         },
@@ -488,7 +488,7 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
             "agent_name": "Hermes Agent",
             "welcome": "Welcome to Hermes Agent! Type your message or /help for commands.",
             "goodbye": "Goodbye! ⚕",
-            "response_label": " ⚕ Hermes ",
+            "response_label": " ⚡ AS AI PA ",
             "prompt_symbol": "❯",
             "help_header": "[?] Available Commands",
         },

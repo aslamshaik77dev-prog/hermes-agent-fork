@@ -630,7 +630,7 @@ class CopilotACPClient:
                     },
                     "clientInfo": {
                         "name": "hermes-agent",
-                        "title": "Hermes Agent",
+                        "title": "AS AI PA",
                         "version": "0.0.0",
                     },
                 },
