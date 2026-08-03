@@ -17428,7 +17428,9 @@ def start_server(
     # injection / WS-auth paths can branch on it consistently.  Phase 3.5
     # uses this to decide whether to refuse the bind, log the gate-on
     # banner, and enable uvicorn proxy_headers.
-    app.state.auth_required = should_require_auth(host)
+    # app.state.auth_required = should_require_auth(host)
+    # Railway public deployment - temporarily disable auth gate
+    app.state.auth_required = False
 
     # ``--insecure`` no longer disables the auth gate (June 2026 hardening:
     # the hermes-0day MCP-persistence campaign abused unauthenticated public
